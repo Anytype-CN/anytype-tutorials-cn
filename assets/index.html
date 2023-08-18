@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Anytype Tech Docs</title>
+  <meta name="description"
+    content="The official tech documentation for the Anytype. Available in multiple languages.">
+
+  <!-- JSON LD data -->
+  
+
+  <!-- Get the font from Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    body {
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      background-image: linear-gradient(90deg, #ddd 0%, #fff 20%, #fff 80%, #ddd 100%);
+    }
+
+    div#header {
+      background-color: #333;
+      color: white;
+      padding-left: 35vw;
+    }
+
+    h1#main-head {
+      line-height: 1.5em;
+      margin: 0px;
+      padding: 10px;
+    }
+
+    /* img#main-logo {
+      height: 1.5em;
+      vertical-align: top;
+    } */
+
+    .container {
+      width: 30vw;
+      margin: 0 auto;
+    }
+
+    /* Make sure the page also works on smaller screens */
+    @media (max-width: 800px) {
+      .container {
+        width: 90vw;
+      }
+
+      div#header {
+        padding-left: 5vw;
+      }
+    }
+
+    div#navigation {
+      padding-bottom: 10px;
+    }
+
+    div#navigation a {
+      display: inline-block;
+      color: #1cb27e;
+      text-decoration: none;
+      padding: 2px;
+      border-radius: 2px;
+    }
+
+    div#navigation a:hover {
+      background-color: #1cb27e;
+      color: white;
+    }
+
+    .container ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    a.button-link {
+      text-decoration: none;
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      margin: 5px;
+      padding: 10px;
+      border: 1px solid #333;
+      border-radius: 5px;
+      transition: 0.2s all ease;
+      color: #333;
+    }
+
+    a.button-link:hover {
+      background-color: #1cb27e;
+      border-color: #1cb27e;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Pull the main-head out of the container for a nicer visual effect -->
+  <div id="header">
+    <h1 id="main-head">
+      <!-- <img src="logo.png" alt="Anytype" id="main-logo"> -->
+      Anytype Tech Docs
+    </h1>
+    <div id="navigation">
+      <a href="http://fresh.anytype.io/" target="_blank">Homepage</a> &bullet;
+      <a href="https://download.anytype.io/" target="_blank">Download</a> &bullet;
+      <a href="https://doc.anytype.io" target="_blank">Documentation</a> &bullet;
+      <a href="https://community.anytype.io/" target="_blank">Community</a> &bullet;
+      <a href="https://github.com/anyproto/tech-docs" target="_blank">GitHub</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <p>
+      Please select your language.
+    </p>
+    <p>
+    <ul>
+      <li><a href="/en" class="button-link"><span class="flag" >🇬🇧</span> English </a></li>
+      <!-- <li><a href="/cn" class="button-link"><span class="flag-icon" flag-icon-chn></span> 简体中文 </a></li> -->
+    </ul>
+    </p>
+  </div>
+</body>
+
+</html>

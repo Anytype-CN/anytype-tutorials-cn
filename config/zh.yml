@@ -1,0 +1,42 @@
+site_name: Anytype CN Tutorials
+# site_url: https://tech.anytype.io/
+repo_url: https://github.com/Anytype-CN/anytype-tutorials-cn
+site_description: >-
+  An unofficial Chinese tutorial for Anytype, collaboratively authored, organized, and maintained by members of the community.
+copyright: "&copy; "
+docs_dir: ../docs/zh
+site_dir: ../build/zh
+edit_uri: edit/main/docs/zh
+# extra_css:
+#   - assets/app.css
+nav:
+  - Welcome: index.md
+  - 安装和配置:
+      - xxxx: installation/demo.md
+  - 界面和功能介绍:
+      - xxxx: interface/demo.md
+  - 数据类型和操作:
+      - xxxx: data/demo.md
+  - 高级功能和扩展:
+      - xxxx: advanced/demo.md
+  - 常见问题和解决方案:
+      - xxxx: troubleshooting/demo.md
+  - 贡献指南:
+      - xxxx: contributing/demo.md
+theme:
+  name: material
+  custom_dir: ../theme_override
+  highlightjs: True
+  prev_next_buttons_location: both
+  hljs_languages:
+    - javascript
+    - css
+    - yaml
+    - tex
+    - bash
+markdown_extensions:
+  - toc:
+      permalink: True
+plugins:
+  - search:
+      lang: ja
